@@ -1,0 +1,2 @@
+# gpmaterials
+GPMaterials implements a rich set of finite element formulations for finite strain hyperelasticity, damage, multi-scale solid mechanics in both continuum and discrete level (truss-like network of fibres). This library was developed during my master and PhD studies at LNCC. Particularly this version is more related with my PhD and indeed it is the last stable version from late 2018, before starting writing up the thesis. 
