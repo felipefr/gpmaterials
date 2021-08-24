@@ -4,9 +4,9 @@ GPMaterials implements a rich set of finite element formulations for finite stra
 The library should be compiled in a .so file and then used by SolverGP (see below reference). SolverGP itself is not opensource. Consider using "Piola", developed by myself mimeting the interface of SolverGP, using C++. If you didn't manage to couple them please drop me a e-mail at f.rocha.felipe@gmail.com 
 
 
-SolverGP reference : Urquiza, S. A. and Venère, M. J. ´ 2002. An application framework architecture for fem and
-other related solvers. In Mec´anica Computacional, S.R.Idelsohn, V.E.Sonzogni, and A.Cardona,
-Eds. Vol. 22. Santa F´e - Paran´a , Argentina, 3099–3109.
+SolverGP reference : Urquiza, S. A. and Venère, M. J. 2002. An application framework architecture for fem and
+other related solvers. In Mecánica Computacional, S.R.Idelsohn, V.E.Sonzogni, and A.Cardona,
+Eds. Vol. 22. Santa Fé - Paran´a , Argentina, 3099–3109.
 
 
 You can find my thesis at
@@ -32,11 +32,15 @@ Please consider citing at least one of the following documents this library has 
 }
 
 @article{Rocha2021,
-	author = {Rocha, Felipe Figueredo and Blanco, Pablo Javier and S{\'{a}}nchez, Pablo Javier and de Souza Neto, Eduardo and Feij{\'{o}}o, Ra{\'{u}}l Antonino},
-	journal = {Computers \& Structures},
-	publisher = {Elsevier B.V.},
-	title = {{Damage-driven strain localisation in networks of fibres: A computational homogenisation approach (in press)}},
-	year = {2019}
+title = {Damage-driven strain localisation in networks of fibres: A computational homogenisation approach},
+journal = {Computers & Structures},
+volume = {255},
+pages = {106635},
+year = {2021},
+issn = {0045-7949},
+doi = {https://doi.org/10.1016/j.compstruc.2021.106635},
+url = {https://www.sciencedirect.com/science/article/pii/S0045794921001577},
+author = {Felipe Figueredo Rocha and Pablo Javier Blanco and Pablo Javier Sánchez and Eduardo {de Souza Neto} and Raúl Antonino Feijóo},
 }
 
 
