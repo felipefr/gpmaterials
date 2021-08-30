@@ -1,0 +1,5 @@
+/home/felipefr/github/gpmaterials/build/CMakeFiles/rebuild_cache.dir
+/home/felipefr/github/gpmaterials/build/CMakeFiles/objlib.dir
+/home/felipefr/github/gpmaterials/build/CMakeFiles/gpmaterials.dir
+/home/felipefr/github/gpmaterials/build/CMakeFiles/gpmaterials_static.dir
+/home/felipefr/github/gpmaterials/build/CMakeFiles/edit_cache.dir

@@ -1,7 +1,14 @@
 # gpmaterials
 GPMaterials implements a rich set of finite element formulations for finite strain hyperelasticity, damage, multi-scale solid mechanics in both continuum and discrete level (truss-like network of fibres). This library was developed during my master and PhD studies at LNCC, under guidance of Prof. Pablo Blanco. Particularly this version is more related with my PhD and indeed it is the last stable version from late 2018, before starting writing up the thesis. 
 
-The library should be compiled in a .so file and then used by SolverGP (see below reference). SolverGP itself is not opensource. Consider using "Piola", developed by myself mimeting the interface of SolverGP, using C++. If you didn't manage to couple them please drop me a e-mail at f.rocha.felipe@gmail.com 
+The library should be compiled in a .so file and then used by SolverGP (see below reference). SolverGP itself is not opensource. Consider using "Piola", developed by myself mimeting the interface of SolverGP, using C++. If you didn't manage to couple them please drop me a e-mail at f.rocha.felipe@gmail.com. 
+
+Instructions
+i) access the build folder
+ii) cmake .
+iii) make 
+iv) check if libgpmaterials.so and libgpmaterials_static.a have been created. 
+PS : check if you have a valid fortran compiler, I'm using gfortran of the gcc version 7.5.0.
 
 
 SolverGP reference : Urquiza, S. A. and Venère, M. J. 2002. An application framework architecture for fem and

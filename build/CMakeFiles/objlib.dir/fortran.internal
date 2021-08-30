@@ -1,0 +1,20 @@
+# The fortran modules provided by this target.
+provides
+ arclengthlib.mod
+ damagememorymanagementlib.mod
+ damagemodelsnewlib.mod
+ damagenewlib.mod
+ determinant.mod
+ fibreslib.mod
+ fibresmod.mod
+ fibresmodelslib.mod
+ finitestrainlib.mod
+ funcaux.mod
+ genericconstitutivelib.mod
+ globalvariables.mod
+ hypermodelslib.mod
+ loadinglib.mod
+ multiscalelib.mod
+ multiscalenewlib.mod
+ ptsgausslib.mod
+ time_step_iter.mod
