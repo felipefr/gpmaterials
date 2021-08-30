@@ -19,10 +19,10 @@ foreach(d ${Directoires})
 endforeach(d)
 
 add_library(objlib OBJECT ${src})
-
 add_library(gpmaterials SHARED $<TARGET_OBJECTS:objlib>)
 add_library(gpmaterials_static STATIC $<TARGET_OBJECTS:objlib>)
 
+#add_library(gpmaterials SHARED ${src})
 
 #~ add_custom_target(
 	#~ multiscalenewlib
@@ -31,11 +31,3 @@ add_library(gpmaterials_static STATIC $<TARGET_OBJECTS:objlib>)
 
 #~ add_dependencies(globalvariables multiscalenewlib)
 #~ add_dependencies(multiscalenewlib globalvariables)
-
-#~ add_dependencies(residualStress modules)
-#~ add_dependencies(imageProcessing modules)
-#~ add_dependencies(fluid3D modules)
-#~ add_dependencies(math modules)
-#~ add_dependencies(Core modules)
-#~ add_dependencies(wrappers modules)
-#~ add_dependencies(exec modules)

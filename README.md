@@ -4,10 +4,15 @@ GPMaterials implements a rich set of finite element formulations for finite stra
 The library should be compiled in a .so file and then used by SolverGP (see below reference). SolverGP itself is not opensource. Consider using "Piola", developed by myself mimeting the interface of SolverGP, using C++. If you didn't manage to couple them please drop me a e-mail at f.rocha.felipe@gmail.com. 
 
 Instructions
-i) access the build folder
+
+i) cd ./build
+
 ii) cmake .
+
 iii) make 
-iv) check if libgpmaterials.so and libgpmaterials_static.a have been created. 
+
+iv) check if libgpmaterials.so and/or libgpmaterials_static.a have been created. 
+
 PS : check if you have a valid fortran compiler, I'm using gfortran of the gcc version 7.5.0.
 
 
